@@ -8,5 +8,7 @@ BotaniaVars.dat
 astralsorcery/gatewayFilter/worldFilter.dat
 options.txt
 usercache.json
+usernamecache.json=
+config/splash.properties
 usernamecache.json
 config/splash.properties
