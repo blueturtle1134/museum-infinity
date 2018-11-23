@@ -2,7 +2,6 @@ logs/**
 mods/**
 resourcePacks/**
 saves/*
-!saves/test/
 journeymap/**
 BotaniaVars.dat
 astralsorcery/gatewayFilter/worldFilter.dat
