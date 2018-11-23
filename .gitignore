@@ -1,7 +1,7 @@
 logs/**
 mods/**
 resourcePacks/**
-saves/*
+saves/**
 journeymap/**
 BotaniaVars.dat
 astralsorcery/gatewayFilter/worldFilter.dat
@@ -11,3 +11,4 @@ usernamecache.json=
 config/splash.properties
 usernamecache.json
 config/splash.properties
+screenshot/**
