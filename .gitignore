@@ -10,3 +10,4 @@ usernamecache.json
 screenshots/**
 config/splash.properties
 saves/**
+structures/inactive/*
