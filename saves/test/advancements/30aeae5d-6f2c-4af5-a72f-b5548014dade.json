@@ -2327,6 +2327,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2018-11-24 00:21:43 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magma": {
     "criteria": {
       "has_the_recipe": "2018-11-22 18:57:29 -0500"
