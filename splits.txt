@@ -1,0 +1,34 @@
+Hierarchy used to determine random splittings:
+
+List SPLITS_Full includes structures COMMON_Fullshell, SPLITS_Full_UD, SPLITS_Full_NS, and SPLITS_Full_EW
+COMMON_Fullshell is in list SPLITS_Full and generates one from LISTS_Full
+SPLITS_Full_UD is in list SPLITS_Full and generates two from SPLITS_Flat
+SPLITS_Full_NS is in list SPLITS_Full and generates two from SPLITS_HalfNS
+SPLITS_Full_EW is in list SPLITS_Full and generates two from SPLITS_HalfEW
+
+List SPLITS_Flat includes structures COMMON_Flatshell, SPLITS_Flat_NS, and SPLITS_Flat_EW
+COMMON_Flatshell is in list SPLITS_Flat and generates one from LISTS_Flat
+SPLITS_Flat_NS is in list SPLITS_Flat and generates two from SPLITS_QuadEW
+SPLITS_Flat_EW is in list SPLITS_Flat and generates two from SPLITS_QuadNS
+
+List SPLITS_HalfNS includes structures COMMON_HalfNSShell, SPLITS_HalfNS_EW, and SPLITS_HalfNS_UD
+COMMON_HalfNSShell is in list SPLITS_HalfNS and generates one from LISTS_HalfNS
+SPLITS_HalfNS_EW is in list SPLITS_HalfNS and generates two from SPLITS_Tall
+SPLITS_HalfNS_UD is in list SPLITS_HalfNS and generates two from SPLITS_QuadEW
+
+List SPLITS_HalfEW includes structures COMMON_HalfEWShell, SPLITS_HalfEW_NS, and SPLITS_HalfEW_UD
+COMMON_HalfEWShell is in list SPLITS_HalfEW and generates one from LISTS_HalfEW
+SPLITS_HalfEW_NS is in list SPLITS_HalfEW and generates two from SPLITS_Tall
+SPLITS_HalfEW_UD is in list SPLITS_HalfEW and generates two from SPLITS_QuadNS
+
+List SPLITS_QuadNS includes structures COMMON_QuadNSShell and SPLITS_QuadNS_Small
+COMMON_QuadNSShell is in list SPLITS_QuadNS and generates one from LISTS_QuadNS
+SPLITS_QuadNS_Small is in list SPLITS_QuadNS and generates two from LISTS_Small
+
+List SPLITS_QuadEW includes structures COMMON_QuadEWShell and SPLITS_QuadEW_Small
+COMMON_QuadEWShell is in list SPLITS_QuadEW and generates one from LISTS_QuadEW
+SPLITS_QuadEW_Small is in list SPLITS_QuadEW and generates two from LISTS_Small
+
+List SPLITS_Tall includes structures COMMON_TallShell and SPLITS_Tall_Small
+COMMON_TallShell is in list SPLITS_Tall and generates one from LISTS_Tall
+SPLITS_Tall_Small is in list SPLITS_Tall and generates two from LISTS_Small
