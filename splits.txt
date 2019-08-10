@@ -1,5 +1,17 @@
 Hierarchy used to determine random splittings:
 
+List SPLITS_NodeshellList contains only COMMON_Nodeshell
+
+COMMON_Nodeshell waits for a player to approach, then spawns in SPLITS_NodeshellList to the four sides and spawns in SPLITS_Chunk
+
+List SPLITS_Chunk represents an entire bedrock-to-ground column of 42x42. It only contains structure COMMON_Chunkshell
+
+List SPLITS_Max includes structure SPLITS_Max_UD only (more will be added later) which splits it into two of SPLITS_Full
+List SPLITS_Top acts like SPLITS_Full for now and includes SPLITS_End_Full only
+List SPLITS_Bottom acts like SPLITS_Full for now and includes SPLITS_End_Full only
+
+SPLITS_End_Full generates SPLITS_Full
+
 List SPLITS_Full includes structures COMMON_Fullshell, SPLITS_Full_UD, SPLITS_Full_NS, and SPLITS_Full_EW
 COMMON_Fullshell is in list SPLITS_Full and generates one from ROOMS_Full
 SPLITS_Full_UD is in list SPLITS_Full and generates two from SPLITS_Flat

@@ -21,3 +21,8 @@ crash-reports/**
 config/sponge/worlds/**
 config/jei/worldSettings.cfg
 schematics/**
+config/AppliedEnergistics2/items.csv
+config/EffortlessBuilding.cfg
+config/multimob/modInformation/
+config/worldedit/worldedit.properties
+config/AppliedEnergistics2/CustomRecipes.cfg
