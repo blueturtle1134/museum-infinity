@@ -26,3 +26,7 @@ config/EffortlessBuilding.cfg
 config/multimob/modInformation/
 config/worldedit/worldedit.properties
 config/AppliedEnergistics2/CustomRecipes.cfg
+config/replaymod.cfg
+config/replaymod-render.cfg
+config/replaymod-online.cfg
+*.mcpr
