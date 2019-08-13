@@ -30,3 +30,5 @@ config/replaymod.cfg
 config/replaymod-render.cfg
 config/replaymod-online.cfg
 *.mcpr
+config/OpenEye.json
+reports/**
