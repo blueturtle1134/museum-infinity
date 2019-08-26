@@ -9,7 +9,7 @@ usercache.json
 usernamecache.json
 screenshots/**
 config/splash.properties
-saves/**
+saves/*
 .mixin.out/audit/mixin_implementation_report.txt
 OpenComputersMod-1.7.3.146-lua52-native.64.dll
 OpenComputersMod-1.7.3.146-lua53-native.64.dll
@@ -32,3 +32,8 @@ config/replaymod-online.cfg
 config/OpenEye.json
 reports/**
 config/jei/worldSettings.cfg
+!saves/construction_guideline
+saves/construction_guideline/playerdata/*
+saves/construction_guideline/mcedit_waypoints.dat
+saves/construction_guideline/advancements/*
+saves/construction_guideline/stats/*
